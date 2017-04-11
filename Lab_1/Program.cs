@@ -7,11 +7,12 @@ namespace Lab_1
     {
         static void Main(string[] args)
         {
+            //Intro to the application
 
             Console.WriteLine("Welcome to Grand Circus' Room Detail Generator");
             Console.WriteLine("\n");
 
-
+            //defining variables
             double len, wid, hei;
             String x;
           
@@ -68,6 +69,7 @@ namespace Lab_1
 
                 Console.WriteLine("Would you like to continue?");
 
+                //This loop checks to see if the user entered y or n
                 do
                 {
                     Console.WriteLine("Please Enter (y/n): ");
